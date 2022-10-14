@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(54, 50, 50);
+    color: white;
+}
+.tartalom img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.resz{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#container{
+    margin: auto;
+    width: 850px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+li{
+    font-weight: lighter;
+}
+
+#link li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+@media only screen and (max-widht: 500px){
+    .resz{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    #link li{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 30px; 
+    }
+    #container{
+        margin: auto;
+        width: 500px; 
+    }
+}
