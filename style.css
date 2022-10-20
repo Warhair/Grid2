@@ -9,13 +9,19 @@ body{
     margin-right: auto;
    
 }
+.tartalom{
+    background-color: rgb(54, 50, 50);
+}
 .resz{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    background-color: red;
 }
 #container{
     margin: auto;
     width: 850px;
+    margin-bottom: 500px;
 }
 h1{
     text-align: center;
@@ -36,6 +42,24 @@ a{
     color: white;
     text-decoration: none;
     
+}
+.kepek2{
+    
+    width: 500px;
+    height: 680px;
+}
+#szoveg1{
+    font-size: 40px;
+    border-bottom: 1px solid red;
+    margin: 15px 0px 5px 0px;
+}
+.masodik{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+#szoveg2{
+    text-align: left;
 }
 @media only screen and (max-widht: 500px){
     .resz{
