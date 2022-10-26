@@ -61,6 +61,29 @@ a{
 #szoveg2{
     text-align: left;
 }
+
+.harmadik img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.harmadik div{
+    text-align: center;
+    display: inline-block;
+    background-color: turquoise;
+    border: 85%;
+    width: 450px;
+    height: 50px;
+
+}
+.holdal{
+    text-align: center;
+}
+#rez{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+}
 @media only screen and (max-widht: 500px){
     .resz{
         display: grid;
@@ -75,4 +98,8 @@ a{
         margin: auto;
         width: 500px; 
     }
+    .rez{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
 }
